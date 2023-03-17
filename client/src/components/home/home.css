@@ -1,0 +1,39 @@
+.home-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* margin: auto;
+    justify-content: center; */
+    align-items: center;
+}
+
+.home-container h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.todo-section{
+    display: flex;
+    gap: 10px;
+}
+
+.todo-section input{
+    height: 45px;
+    padding: 10px;
+    border: 1px solid rgb(190, 187, 187);
+    border-radius: 8px;
+}
+
+.todo-section button{
+    width: 100px;
+    cursor: pointer;
+    border: 1px solid rgb(190, 187, 187);
+    border-radius: 8px;
+}
+
+.todo-dropdown{
+    padding: 10px;
+    border: 1px solid rgb(190, 187, 187);
+    border-radius: 8px;
+}

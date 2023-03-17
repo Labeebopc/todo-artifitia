@@ -1,0 +1,30 @@
+
+.table{
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.todo-btn-row{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.todo-btn-row button{
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.todo-btn-cancel{
+    background-color: rgb(199, 145, 80);
+}
+.todo-btn-delete{
+    background-color: rgb(231, 72, 72);
+}
+.todo-btn-complete{
+    background-color: rgb(58, 180, 58);
+}
