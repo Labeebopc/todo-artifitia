@@ -19,7 +19,7 @@ const Todos = () => {
 
         getAllTodos()
 
-    }, [])
+    }, [todo])
 
     // For handling Delete button
     const handleDeleteTodo = (id) => {
